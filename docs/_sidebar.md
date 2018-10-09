@@ -1,5 +1,5 @@
 * DNS
-  * [DNS over HTTPS](DNS/DNS-over-HTTPS/README.md)
+  * [DNS over HTTPS](DNS/DNS-over-HTTPS/)
 
 * macOS
   * Surge
