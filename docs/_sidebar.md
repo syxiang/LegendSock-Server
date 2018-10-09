@@ -13,12 +13,7 @@
   * Quantumult
     * [软件简介](iOS/Quantumult/README.md)
     * [配置教程](iOS/Quantumult/Guides/README.md)
-  * Surge 3 Pro
-    * [软件简介](iOS/Surge-3/README.md)
-    * [配置教程](iOS/Surge-3/Guides/README.md)
-  * Surge 2
-    * [软件简介](iOS/Surge-2/README.md)
-    * [配置教程](iOS/Surge-2/Guides/README.md) 
+    
  * Shadowrocket
    * [软件简介](iOS/Shadowrocket/README.md)
    * [配置教程](iOS/Shadowrocket/Guides/README.md)
