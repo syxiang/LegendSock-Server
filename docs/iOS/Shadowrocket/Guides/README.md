@@ -17,25 +17,25 @@ Shadowrocket 2.1.21 (Build 616)
 
 ---
 
-### 检查 rixCloud 订阅的设置
+### 检查 PPXbar 订阅的设置
 
 !> Shadowrocket 完全支持 SSR 协议
 
 如果不需要使用 Surge 等软件，建议将订阅协议组设置为不带有「兼容」字样的协议（混淆插件除外）。
 
-访问 rixCloud 管理门户，点击已经激活的订阅进入订阅管理页面。然后点击「订阅设置」按钮即可修改。
+访问 PPXbar 管理门户，点击已经激活的订阅进入订阅管理页面。然后点击「订阅设置」按钮即可修改。
 
 ![订阅设置](https://rixcloud-1255365801.file.myqcloud.com/image/8plkh.png)
 
 ---
 
-### rixCloud API 配置
+### PPXbar API 配置
 
-打开 rixCloud 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
+打开 PPXbar 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
 
-![rixCloud API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/grx5a.jpg)
+![PPXbar API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/grx5a.jpg)
 
-在弹出的窗口中选择「普通模式」，按下按钮，如果按钮文字变为「已复制到剪贴板」，则说明 rixCloud API URI 已经复制。
+在弹出的窗口中选择「普通模式」，按下按钮，如果按钮文字变为「已复制到剪贴板」，则说明 PPXbar API URI 已经复制。
 
 !> 这个 API URI 非常重要，你应当把它当做密码一样妥善保管，避免泄露。
 
@@ -45,11 +45,11 @@ Shadowrocket 2.1.21 (Build 616)
 
 在新的页面中，选择「类型」为 Subscribe
 
-在 URL 中粘贴刚才复制的 rixCloud API URI，在备注中填写为：rixCloud
+在 URL 中粘贴刚才复制的 PPXbar API URI，在备注中填写为：PPXbar
 
 ![添加订阅](https://rixcloud-1255365801.file.myqcloud.com/image/p4buc.jpg)
 
-Shadowrocket 会从 rixCloud API 获取订阅信息并添加节点到客户端。
+Shadowrocket 会从 PPXbar API 获取订阅信息并添加节点到客户端。
 
 ![节点已经添加](https://rixcloud-1255365801.file.myqcloud.com/image/w31on.jpg)
 
@@ -57,13 +57,13 @@ Shadowrocket 会从 rixCloud API 获取订阅信息并添加节点到客户端�
 
 ![服务器订阅设置](https://rixcloud-1255365801.file.myqcloud.com/image/9ab0p.jpg)
 
-之后，每次打开 Shadowrocket 时，应用程序就会自动通过 rixCloud API 更新节点信息。
+之后，每次打开 Shadowrocket 时，应用程序就会自动通过 PPXbar API 更新节点信息。
 
 ---
 
-### rixCloud 一键导入
+### PPXbar 一键导入
 
-打开 rixCloud 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到全平台 - 「一键导入」，如果你仅安装了 Shadowrocket，则会弹出窗口询问是否使用 Shadowrocket 打开。
+打开 PPXbar 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到全平台 - 「一键导入」，如果你仅安装了 Shadowrocket，则会弹出窗口询问是否使用 Shadowrocket 打开。
 
 ![Shadowrocket 打开](https://rixcloud-1255365801.file.myqcloud.com/image/kdv96.jpg)
 
@@ -71,7 +71,7 @@ Shadowrocket 会从 rixCloud API 获取订阅信息并添加节点到客户端�
 
 ![添加所有接入点](https://rixcloud-1255365801.file.myqcloud.com/image/5au4t.jpg)
 
-此方式更加方便快捷，但接入点信息不会自动更新，如果 rixCloud 添加或删除了某些接入点，则必须手动操作。
+此方式更加方便快捷，但接入点信息不会自动更新，如果 PPXbar 添加或删除了某些接入点，则必须手动操作。
 
 ---
 
@@ -81,7 +81,7 @@ Shadowrocket 会从 rixCloud API 获取订阅信息并添加节点到客户端�
 
 ![由 Quantumult 打开](https://rixcloud-1255365801.file.myqcloud.com/image/v9uuh.jpg)
 
-这时我们仅需要点击「取消」，而 rixCloud 管理门户已经自动复制了 SSR 代码到你的剪贴板（你可能注意到点击一键配置按钮的一瞬间，按钮文字变为了「已经复制到剪贴板」）。
+这时我们仅需要点击「取消」，而 PPXbar 管理门户已经自动复制了 SSR 代码到你的剪贴板（你可能注意到点击一键配置按钮的一瞬间，按钮文字变为了「已经复制到剪贴板」）。
 
 !> 剪贴板内的 SSR 代码非常重要并包含了你所有的连接信息，你应当注意避免泄露
 
@@ -91,7 +91,7 @@ Shadowrocket 会从 rixCloud API 获取订阅信息并添加节点到客户端�
 
 只需要选择「添加」，所有接入点信息就会添加到你的 Shadowrocket。
 
-此方式添加的接入点信息不会自动更新，如果 rixCloud 添加或删除了某些接入点，则必须手动操作。
+此方式添加的接入点信息不会自动更新，如果 PPXbar 添加或删除了某些接入点，则必须手动操作。
 
 ---
 

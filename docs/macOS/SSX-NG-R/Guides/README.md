@@ -49,13 +49,13 @@ sudo spctl --master-disable
 
 ---
 
-### 检查 rixCloud 订阅的设置
+### 检查 PPXbar 订阅的设置
 
 !> SSX-NG-R 完全支持 SSR 协议
 
 如果不需要使用 Surge 等软件，建议将订阅协议组设置为不带有「兼容」字样的协议（混淆插件除外）。
 
-访问 rixCloud 管理门户，点击已经激活的订阅进入订阅管理页面。然后点击「订阅设置」按钮即可修改。
+访问 PPXbar 管理门户，点击已经激活的订阅进入订阅管理页面。然后点击「订阅设置」按钮即可修改。
 
 ![订阅设置](https://rixcloud-1255365801.file.myqcloud.com/image/8plkh.png)
 
@@ -63,17 +63,17 @@ sudo spctl --master-disable
 
 ### 通过 API 订阅配置
 
-##### 获取 rixCloud API 订阅
+##### 获取 PPXbar API 订阅
 
-打开 rixCloud 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
+打开 PPXbar 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
 
-![rixCloud API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/6tib7.png)
+![PPXbar API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/6tib7.png)
 
 点击按钮后会弹出新的窗口，在新的窗口中点击「普通模式」。
 
-![rixCloud API 订阅模式](https://rixcloud-1255365801.file.myqcloud.com/image/p467g.png)
+![PPXbar API 订阅模式](https://rixcloud-1255365801.file.myqcloud.com/image/p467g.png)
 
-按钮上的文字应当在点击后变成「已经复制到剪贴板」，说明 rixCloud API URI 已经复制到你计算机的剪贴板中。
+按钮上的文字应当在点击后变成「已经复制到剪贴板」，说明 PPXbar API URI 已经复制到你计算机的剪贴板中。
 
 !> 这个 API URI 非常重要，你应当把它当做密码一样妥善保管，避免泄露。
 
@@ -91,7 +91,7 @@ sudo spctl --master-disable
 
 ![编辑订阅](https://rixcloud-1255365801.file.myqcloud.com/image/hv053.png)
 
-在新的「订阅设置」窗口中点击 `+` 号，然后将刚才复制的 rixCloud API URI 粘贴到「订阅地址」一栏上。点击「OK」
+在新的「订阅设置」窗口中点击 `+` 号，然后将刚才复制的 PPXbar API URI 粘贴到「订阅地址」一栏上。点击「OK」
 
 ![创建新订阅](https://rixcloud-1255365801.file.myqcloud.com/image/lgpdu.png)
 
@@ -139,5 +139,5 @@ export https_proxy=http://127.0.0.1:1087;export http_proxy=http://127.0.0.1:1087
 curl ip.sb
 ```
 
-查看 IP 地址是否为 rixCloud 接入点的出口 IP 地址。
+查看 IP 地址是否为 PPXbar 接入点的出口 IP 地址。
 

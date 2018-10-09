@@ -37,29 +37,29 @@ KoolSS (Software center) 1.9.7
 
 ---
 
-### 检查 rixCloud 订阅的设置
+### 检查 PPXbar 订阅的设置
 
 !> KoolSS 完全支持 SSR 协议
 
 如果不需要使用 Surge 等软件，建议将订阅协议组设置为不带有「兼容」字样的协议（混淆插件除外）。
 
-访问 rixCloud 管理门户，点击已经激活的订阅进入订阅管理页面。然后点击「订阅设置」按钮即可修改。
+访问 PPXbar 管理门户，点击已经激活的订阅进入订阅管理页面。然后点击「订阅设置」按钮即可修改。
 
 ![订阅设置](https://rixcloud-1255365801.file.myqcloud.com/image/8plkh.png)
 
 ---
 
-### 获取 rixCloud API 订阅
+### 获取 PPXbar API 订阅
 
-打开 rixCloud 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
+打开 PPXbar 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
 
-![rixCloud API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/6tib7.png)
+![PPXbar API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/6tib7.png)
 
 点击按钮后会弹出新的窗口，在新的窗口中点击「普通模式」。
 
-![rixCloud API 订阅模式](https://rixcloud-1255365801.file.myqcloud.com/image/p467g.png)
+![PPXbar API 订阅模式](https://rixcloud-1255365801.file.myqcloud.com/image/p467g.png)
 
-按钮上的文字应当在点击后变成「已经复制到剪贴板」，说明 rixCloud API URI 已经复制到你计算机的剪贴板中。
+按钮上的文字应当在点击后变成「已经复制到剪贴板」，说明 PPXbar API URI 已经复制到你计算机的剪贴板中。
 
 !> 这个 API URI 非常重要，你应当把它当做密码一样妥善保管，避免泄露。
 
@@ -79,9 +79,9 @@ KoolSS (Software center) 1.9.7
 
 在下方的 SSR 节点订阅中填写一些必要信息。
 
-将我们刚才复制的 rixCloud API URI 粘贴到「SSR 节点订阅地址」中；将「订阅节点模式设定」选择为「游戏模式」；然后将订阅节点混淆参数设定设置为「使用订阅设定」。
+将我们刚才复制的 PPXbar API URI 粘贴到「SSR 节点订阅地址」中；将「订阅节点模式设定」选择为「游戏模式」；然后将订阅节点混淆参数设定设置为「使用订阅设定」。
 
-![配置 rixCloud API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/t61lj.png)
+![配置 PPXbar API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/t61lj.png)
 
 > 「订阅节点模式设定」可以根据你的需求来设置，但最佳使用体验是设置为「游戏模式」。
 
@@ -91,7 +91,7 @@ KoolSS (Software center) 1.9.7
 
 ![更新订阅](https://rixcloud-1255365801.file.myqcloud.com/image/k7zql.png)
 
-此时 rixCloud 接入点信息已经添加到你的 KoolSS 中了，现在让我们来做一些附加设置以便更好地使用。
+此时 PPXbar 接入点信息已经添加到你的 KoolSS 中了，现在让我们来做一些附加设置以便更好地使用。
 
 ---
 
@@ -129,7 +129,7 @@ KoolSS (Software center) 1.9.7
 
 ![KoolSS 启动日志](https://rixcloud-1255365801.file.myqcloud.com/image/13gcg.png)
 
-完成后，页面会自动跳转回主页面，并启动连接测试，如果如下图显示则连接成功，所有连接到此路由器的设备都可以通过 rixCloud 网络连接到国际互联网。
+完成后，页面会自动跳转回主页面，并启动连接测试，如果如下图显示则连接成功，所有连接到此路由器的设备都可以通过 PPXbar 网络连接到国际互联网。
 
 ![连接检查](https://rixcloud-1255365801.file.myqcloud.com/image/soig9.png)
 

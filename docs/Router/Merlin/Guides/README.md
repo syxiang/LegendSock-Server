@@ -20,7 +20,7 @@ KoolSS 1.1.6(Merlin)
 
 由于使用 Koolshare Modified ROM（改版固件）的太多是普通家用路由器，其使用的 CPU 大都为 MIPS 或 ARMv7 架构，其性能可能不足，因此使用 KoolSS 可能无法达到较高速率。
 
-目前经过 rixCloud 和 Koolshare 的测试，以下两款路由器使用 Koolshare Modified ROM 的 KoolSS 后可基本达到 200Mbps 的速率：
+目前经过 PPXbar 和 Koolshare 的测试，以下两款路由器使用 Koolshare Modified ROM 的 KoolSS 后可基本达到 200Mbps 的速率：
 
 > ASUS GT-AC5300
 > 
@@ -35,31 +35,31 @@ KoolSS 1.1.6(Merlin)
 
 | 型号 | 数据提供方 | 品牌 | 大致连接速率 |
 | :-- | :-: |:-: | :-: |
-| R6300v2 | rixCloud | NETGEAR | 60Mbps |
-| R6400 | rixCloud | NETGEAR | 30Mbps |
-| R6900 | rixCloud | NETGEAR | 60Mbps |
-| R7000 | rixCloud | NETGEAR | 80Mbps |
-| R8000 | rixCloud | NETGEAR |  未经测试  |
-| R8500 | rixCloud | NETGEAR | 110Mbps |
-| RT-N66U | rixCloud | ASUS |  未经测试 |
-| RT-AC56U | rixCloud | ASUS | 20Mbps |
-| RT-AC66U | rixCloud | ASUS | 30Mbps |
-| RT-AC68U | rixCloud | ASUS | 70Mbps |
-| RT-AC87U | rixCloud | ASUS | 70Mbps |
-| RT-AC88U | rixCloud | ASUS | 100Mbps |
-| RT-AC86U | rixCloud | ASUS | 200Mbps |
-| RT-AC1900P | rixCloud | ASUS | 70Mbps |
-| RT-AC3100 | rixCloud | ASUS |  未经测试 |
-| RT-AC3200 | rixCloud | ASUS |  未经测试 |
-| RT-AC66U-B1 | rixCloud | ASUS | 50Mbps |
-| RT-AC5300 | rixCloud | ASUS | 120Mbps |
-| GT-AC5300 | rixCloud | 玩家国度 | 250Mbps |
-| EA6200 | rixCloud | Linksys |  未经测试 |
-| EA6400 | rixCloud | Linksys |  未经测试 |
-| EA6700 | rixCloud | Linksys |  未经测试 |
-| EA6500v2 | rixCloud | Linksys |  未经测试  |
-| EA6900 | rixCloud | Linksys |  未经测试 |
-| WRT1900ACS | rixCloud | Linksys | 120Mbps |
+| R6300v2 | PPXbar | NETGEAR | 60Mbps |
+| R6400 | PPXbar | NETGEAR | 30Mbps |
+| R6900 | PPXbar | NETGEAR | 60Mbps |
+| R7000 | PPXbar | NETGEAR | 80Mbps |
+| R8000 | PPXbar | NETGEAR |  未经测试  |
+| R8500 | PPXbar | NETGEAR | 110Mbps |
+| RT-N66U | PPXbar | ASUS |  未经测试 |
+| RT-AC56U | PPXbar | ASUS | 20Mbps |
+| RT-AC66U | PPXbar | ASUS | 30Mbps |
+| RT-AC68U | PPXbar | ASUS | 70Mbps |
+| RT-AC87U | PPXbar | ASUS | 70Mbps |
+| RT-AC88U | PPXbar | ASUS | 100Mbps |
+| RT-AC86U | PPXbar | ASUS | 200Mbps |
+| RT-AC1900P | PPXbar | ASUS | 70Mbps |
+| RT-AC3100 | PPXbar | ASUS |  未经测试 |
+| RT-AC3200 | PPXbar | ASUS |  未经测试 |
+| RT-AC66U-B1 | PPXbar | ASUS | 50Mbps |
+| RT-AC5300 | PPXbar | ASUS | 120Mbps |
+| GT-AC5300 | PPXbar | 玩家国度 | 250Mbps |
+| EA6200 | PPXbar | Linksys |  未经测试 |
+| EA6400 | PPXbar | Linksys |  未经测试 |
+| EA6700 | PPXbar | Linksys |  未经测试 |
+| EA6500v2 | PPXbar | Linksys |  未经测试  |
+| EA6900 | PPXbar | Linksys |  未经测试 |
+| WRT1900ACS | PPXbar | Linksys | 120Mbps |
 
 （数据提供方表明此数据是通过何种渠道收集的）
 
@@ -95,29 +95,29 @@ Koolshare Modified ROM 在使用软件中心前需要先清空并格式化 JFFS2
 
 ![安装完成](https://rixcloud-1255365801.file.myqcloud.com/image/spv3m.png)
 
-### 检查 rixCloud 订阅的设置
+### 检查 PPXbar 订阅的设置
 
 !> KoolSS 完全支持 SSR 协议
 
 如果不需要使用 Surge 等软件，建议将订阅协议组设置为不带有「兼容」字样的协议（混淆插件除外）。
 
-访问 rixCloud 管理门户，点击已经激活的订阅进入订阅管理页面。然后点击「订阅设置」按钮即可修改。
+访问 PPXbar 管理门户，点击已经激活的订阅进入订阅管理页面。然后点击「订阅设置」按钮即可修改。
 
 ![订阅设置](https://rixcloud-1255365801.file.myqcloud.com/image/8plkh.png)
 
 ---
 
-### 获取 rixCloud API 订阅
+### 获取 PPXbar API 订阅
 
-打开 rixCloud 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
+打开 PPXbar 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
 
-![rixCloud API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/6tib7.png)
+![PPXbar API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/6tib7.png)
 
 点击按钮后会弹出新的窗口，在新的窗口中点击「普通模式」。
 
-![rixCloud API 订阅模式](https://rixcloud-1255365801.file.myqcloud.com/image/p467g.png)
+![PPXbar API 订阅模式](https://rixcloud-1255365801.file.myqcloud.com/image/p467g.png)
 
-按钮上的文字应当在点击后变成「已经复制到剪贴板」，说明 rixCloud API URI 已经复制到你计算机的剪贴板中。
+按钮上的文字应当在点击后变成「已经复制到剪贴板」，说明 PPXbar API URI 已经复制到你计算机的剪贴板中。
 
 !> 这个 API URI 非常重要，你应当把它当做密码一样妥善保管，避免泄露。
 
@@ -143,7 +143,7 @@ Koolshare Modified ROM 在使用软件中心前需要先清空并格式化 JFFS2
 
 ![SSR 订阅设置](https://rixcloud-1255365801.file.myqcloud.com/image/c6y24.png)
 
-在「订阅地址管理」中粘贴我们之前复制的 rixCloud API URI，然后进行如下设定
+在「订阅地址管理」中粘贴我们之前复制的 PPXbar API URI，然后进行如下设定
 
 > 将「订阅节点模式设定」设置为「游戏模式」
 > 

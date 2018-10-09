@@ -8,17 +8,17 @@
 
 ?> Samsung SM-G9650/DS  
 Android 8.0.0 / Samsung Experience 9.0  
-ShadowsocksR 3.4.0.7.1 (rixCloud Mod)
+ShadowsocksR 3.4.0.7.1 (PPXbar Mod)
 
 ---
 
-### 获取 rixCloud API 订阅
+### 获取 PPXbar API 订阅
 
-打开 rixCloud 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
+打开 PPXbar 管理门户，点击订阅名称进入订阅信息管理页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。
 
-![rixCloud API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/zvi52.jpg)
+![PPXbar API 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/zvi52.jpg)
 
-在弹出的窗口中选择「普通模式」，按下按钮，如果按钮文字变为「已复制到剪贴板」，则说明 rixCloud API URI 已经复制。
+在弹出的窗口中选择「普通模式」，按下按钮，如果按钮文字变为「已复制到剪贴板」，则说明 PPXbar API URI 已经复制。
 
 !> 这个 API URI 非常重要，你应当把它当做密码一样妥善保管，避免泄露。
 
@@ -30,13 +30,13 @@ ShadowsocksR 3.4.0.7.1 (rixCloud Mod)
 
 你可以点击[这里](https://cdn.rixcloud.io/download/ShadowsocksR.apk)下载 ShadowsocksR for Android。
 
-![rixCloud Mod 版 ShadowsocksR](https://rixcloud-1255365801.file.myqcloud.com/image/uyiox.jpg)
+![PPXbar Mod 版 ShadowsocksR](https://rixcloud-1255365801.file.myqcloud.com/image/uyiox.jpg)
 
 进入程序后点击顶部的「ShadowsocksR」图标，进入配置文件管理页面，然后点击右下角的「+」，在弹出的选项中选择「添加/升级 SSR 订阅」。
 
-![添加 rixCloud 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/i1k1d.jpg)
+![添加 PPXbar 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/i1k1d.jpg)
 
-在弹出的菜单中选择「添加订阅地址」，在新窗口中粘贴之前从 rixCloud 管理门户获取的 API URI。
+在弹出的菜单中选择「添加订阅地址」，在新窗口中粘贴之前从 PPXbar 管理门户获取的 API URI。
 
 !> 这个 API URI 非常重要，你应当把它当做密码一样妥善保管，避免泄露。
 
@@ -44,9 +44,9 @@ ShadowsocksR 3.4.0.7.1 (rixCloud Mod)
 
 添加完成后会自动返回到之前的菜单，打开「自动更新」然后点击「确定并升级」。
 
-![更新 rixCloud 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/7otpr.jpg)
+![更新 PPXbar 订阅](https://rixcloud-1255365801.file.myqcloud.com/image/7otpr.jpg)
 
-软件会自动访问 rixCloud RESTful API 并获取相应的数据，成功后应当如图所示：
+软件会自动访问 PPXbar RESTful API 并获取相应的数据，成功后应当如图所示：
 
 ![节点列表](https://rixcloud-1255365801.file.myqcloud.com/image/z6qwa.jpg)
 
@@ -76,7 +76,7 @@ ShadowsocksR 3.4.0.7.1 (rixCloud Mod)
 
 然后打开「IPv6 路由」和「UDP 转发」的选项卡。
 
-IPv6 路由可以使得你在使用特定受支持的 rixCloud 接入点时，可以使用 IPv6 网络访问互联网而无需你本地有 IPv6 网络。
+IPv6 路由可以使得你在使用特定受支持的 PPXbar 接入点时，可以使用 IPv6 网络访问互联网而无需你本地有 IPv6 网络。
 
 UDP 转发可以满足某些应用程序的连接需求。
 
@@ -100,7 +100,7 @@ UDP 转发可以满足某些应用程序的连接需求。
 
 以 Samsung Experience 9.0 为例，其他第三方系统需要进行类似的设置。
 
-在「常规管理」 - 「电池」 - 「未监视的应用程序」中添加 ShadowsocksR 应用程序（在 rixCloud Mod 版中此应用程序的名称为 rixCloud）。
+在「常规管理」 - 「电池」 - 「未监视的应用程序」中添加 ShadowsocksR 应用程序（在 PPXbar Mod 版中此应用程序的名称为 PPXbar）。
 
 ![设置 ShadowsocksR 不受电池策略影响](https://rixcloud-1255365801.file.myqcloud.com/image/pc2gr.jpg)
 

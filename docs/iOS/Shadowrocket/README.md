@@ -8,7 +8,7 @@
 
 !> 目前该软件不能在中国大陆的 App Store 购买、下载或更新。
 
-?> rixCloud 为此客户端提供「扩展支持」
+?> PPXbar 为此客户端提供「扩展支持」
 
 Shadowrocket 早在 Apple 还尚未推出 Network Extension 时就已经通过内置浏览器的方法让未越狱 iOS 设备能一定程序上使用 SS 代理。
 
